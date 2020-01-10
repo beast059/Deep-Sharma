@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Passenger Information</title>
+<style>
+	ul{
+		width:20%;
+		display:block;
+		margin:auto;
+	}
+	ul li{
+		margin: 25px;
+		font-size:21px;
+	}
+	h2{
+		text-align:center;
+	}
+</style>
+</head>
+<body>
+	<h2>Airline Reservation System - Deep Sharma - 300958233</h2>
+	<hr>
+	<br>
+	<ul>
+		<li><a th:href="@{/passengers}" href="#"> List of Passengers</a></li>
+		<li><a th:href="@{/add-passengers}" href="#">Add new Passengers</a></li>
+	</ul>
+</body>
+</html>
